@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953901447106",
+    "firebase_url": "https://game-consign.firebaseio.com",
+    "project_id": "game-consign",
+    "storage_bucket": "game-consign.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953901447106:android:5f617e54bfc556ad",
+        "android_client_info": {
+          "package_name": "com.example.android.gameconsign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953901447106-1gv8k29mnodnbjoj2699bo6duluhpqm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.gameconsign",
+            "certificate_hash": "6ed39bc5adb68c1dd33a07398ce8ae445d5fb469"
+          }
+        },
+        {
+          "client_id": "953901447106-bkb653q024j51r0hvpjreuidrcll0lm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABmSP4AFWQN5d8-aMHgMxcMidHwGYhPjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953901447106-bkb653q024j51r0hvpjreuidrcll0lm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.gameconsign.LoginPembeliActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:contentDescription="@string/desc"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/logogc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Consign"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="Login Pembeli"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/userloginpembeli"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:hint="Username"
+            android:textColorHint="@color/black"/>
+
+        <EditText
+            android:id="@+id/passloginpembeli"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="30dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:hint="Password"
+            android:textColorHint="@color/black"/>
+
+        <Button
+            android:id="@+id/loginpembeli"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:background="@drawable/edit_round"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

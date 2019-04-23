@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.gameconsign.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:contentDescription="@string/desc"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            app:srcCompat="@drawable/logogc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Consign"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anda ingin login sebagai :"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="70dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/penjual"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_round"
+            android:text="Penjual"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            />
+
+        <Button
+            android:id="@+id/pembeli"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_round"
+            android:text="Pembeli"
+            android:textColor="@color/white"
+            android:layout_marginBottom="50dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum memiliki akun?"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tvReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Sekarang"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textColor="@color/red"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/daftar"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="@color/white"-->
+            <!--android:shadowColor="@color/white"-->
+            <!--android:text="daftar sekarang"-->
+            <!--android:textColor="@color/red"-->
+            <!--android:layout_marginBottom="30dp"-->
+            <!--/>-->
+    </LinearLayout>
+</LinearLayout>
